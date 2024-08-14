@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(204, 201, 220);
+    color: rgb(12, 24, 33);
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+}
+
+.container{
+    height: 25rem;
+    width: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.box{
+    background-color: rgb(12, 24, 33);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 4rem;
+    color: rgb(204, 201, 220);
+}
+
+.new{
+    border-radius: 1rem;
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(50, 74, 95);
+    border: none;
+    color: rgb(204, 201, 220);
+    margin: 2rem; 
+    font-size: 0.9rem;   
+}
